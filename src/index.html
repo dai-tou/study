@@ -23,12 +23,21 @@
     <!--日志-->
     <p>git log -p</p>
     <!--具体查看某人何时做个某些更改-->
+    <p>git log --pretty=online 只查看版本号和版本信息</p>
+    <p>git reset --hard 版本号</p>
+    <!--版本回滚-->
+    <p>git reset --hard HEAD^</p>
+    <!--版本回滚至上一个-->
     <p>git relog</p>
     <!--隔日回滚-->
+    <p>git restore --staged 文件名</p>
+    <!--在暂存区  撤销-->
+    <p>git reset --soft HEAD^</p>
+    <!--该命令表示撤销commit至上一次 commit的版本-->
+    <!--文件夹被删除了怎么办？ 1版本回滚  2彻底删除  git rm 文件路径-->
+
     <p>git rm</p>
     <!--删除-->
-    <p>git checkout --</p>
-    <!--撤销-->
     <p>git branch 分支名</p>
     <!--创建分支-->
     <p>git checkout 分支名</p>
